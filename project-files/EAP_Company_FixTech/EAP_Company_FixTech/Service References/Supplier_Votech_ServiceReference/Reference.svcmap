@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c30fcf13-0b3a-4ebb-9a7e-9a59253faa5f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50235/Ws_Supplier_Votech.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Ws_Supplier_Votech.xsd" MetadataType="Schema" ID="5026cac5-cf95-4091-9788-38e5fc15971c" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd1" />
+    <MetadataFile FileName="Ws_Supplier_Votech2.xsd" MetadataType="Schema" ID="62914f5f-d38a-4df2-9167-a6546f82556b" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd0" />
+    <MetadataFile FileName="Ws_Supplier_Votech3.xsd" MetadataType="Schema" ID="aa7040ad-eb69-4649-a9c2-ae35a8d3ae4a" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd3" />
+    <MetadataFile FileName="Ws_Supplier_Votech4.xsd" MetadataType="Schema" ID="94d088a0-2a76-4d7f-8578-215a1462b312" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd2" />
+    <MetadataFile FileName="Ws_Supplier_Votech.wsdl" MetadataType="Wsdl" ID="c03abf43-f635-4d79-8198-7cdb66cf1724" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?wsdl" />
+    <MetadataFile FileName="Ws_Supplier_Votech5.xsd" MetadataType="Schema" ID="986d4fe1-554b-49b6-9bba-e77746d1da9c" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?xsd=xsd4" />
+    <MetadataFile FileName="Ws_Supplier_Votech.disco" MetadataType="Disco" ID="422266d9-c581-420f-b76c-c69c0cc81bdc" SourceId="1" SourceUrl="http://localhost:50235/Ws_Supplier_Votech.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

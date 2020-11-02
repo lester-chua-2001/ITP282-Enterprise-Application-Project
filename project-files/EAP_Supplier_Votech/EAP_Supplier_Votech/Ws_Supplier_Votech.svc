@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="EAP_Supplier_Votech.Ws_Supplier_Votech" CodeBehind="Ws_Supplier_Votech.svc.cs" %>

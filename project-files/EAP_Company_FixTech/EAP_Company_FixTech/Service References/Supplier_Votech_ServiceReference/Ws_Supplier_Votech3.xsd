@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EAP_Supplier_Votech.DAL.Lester" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EAP_Supplier_Votech.DAL.Lester" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfDAL_CreateInvoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DAL_CreateInvoice" nillable="true" type="tns:DAL_CreateInvoice" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDAL_CreateInvoice" nillable="true" type="tns:ArrayOfDAL_CreateInvoice" />
+  <xs:complexType name="DAL_CreateInvoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CO_AdminComment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CO_Archive" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CO_CompanyAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CO_CompanyContact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CO_CompanyEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CO_CompanyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CO_Date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CO_ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceNum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OI_ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PO_ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProdID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DAL_CreateInvoice" nillable="true" type="tns:DAL_CreateInvoice" />
+</xs:schema>

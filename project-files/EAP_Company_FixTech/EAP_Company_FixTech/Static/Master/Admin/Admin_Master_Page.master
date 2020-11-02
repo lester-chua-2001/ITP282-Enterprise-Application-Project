@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin_Master_Page.master.cs" Inherits="static_Master_Admin_Admin_Master_Page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FontAwesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="../../../static/Master/Admin/Admin_Master.css" />
+
+    <!-- Tab Icon -->
+    <link rel="shortcut icon" type="image/png" href="../../../Img/repairing.png" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand text-white ml-5" href="#">Admin <i class="fas fa-angle-double-right"></i></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+
+                        <asp:LinkButton ID="lbtn_Dashboard" runat="server" CssClass="nav-link text-white  px-3" CausesValidation="false" OnClick="lbtn_Dashboard_Click">Dashboard</asp:LinkButton>
+
+                        <%--                        <asp:LinkButton ID="lbtn_Order" runat="server" CssClass="nav-link text-white  px-3" CausesValidation="false" OnClick="lbtn_Order_Click">CreateOrder</asp:LinkButton>--%>
+
+                        <div class="nav-item dropdown text-white">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Orders
+                            </a>
+                            <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+                                <asp:LinkButton ID="lbtn_Order" runat="server" CssClass="nav-link  text-dark px-3 dropdown-item " CausesValidation="false" OnClick="lbtn_Order_Click">Create Purchase Order</asp:LinkButton>
+                                <asp:LinkButton ID="lbtn_ViewOrder" runat="server" CssClass="nav-link  text-dark px-3 dropdown-item " CausesValidation="false" OnClick="lbtn_ViewOrder_Click">View Purchase Order</asp:LinkButton>
+                            </div>
+                        </div>
+
+
+                        <asp:LinkButton ID="btn_getDO" runat="server" CssClass="nav-link text-white  px-3" CausesValidation="false" OnClick="btn_getDO_Click">Delivery Order</asp:LinkButton>
+                        
+
+
+
+
+                        <asp:LinkButton ID="lbtn_Payment" runat="server" CssClass="nav-link text-white  px-3" CausesValidation="false" OnClick="lbtn_Payment_Click">List of Invoice</asp:LinkButton>
+
+                        <div class="mr-auto"></div>
+                        <div class="navbar-nav mr-5 ">
+                            <a class="nav-item nav-link  text-white px-3" href="#"><i class="far fa-bell"></i></a>
+                            <a class="nav-item nav-link text-white px-3" href="#"><i class="far fa-envelope"></i></a>
+                            <a class="nav-item nav-link text-white px-3" href="#">Logout &nbsp;<i
+                                class="fas fa-sign-out-alt"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+
+
+
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

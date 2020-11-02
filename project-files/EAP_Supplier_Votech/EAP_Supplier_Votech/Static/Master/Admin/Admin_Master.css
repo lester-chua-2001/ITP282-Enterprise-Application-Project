@@ -1,0 +1,33 @@
+﻿:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-back: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.87);
+}
+
+header .navbar {
+    /*background-color: #282833;*/
+    padding: 2.5vh 0 2.5vh 0;
+
+}
+
+header .title .container-fluid {
+    /*color: white;*/
+    /*border-bottom: 1px solid #40424f;*/
+    /*background: #32323e;*/
+    padding : 15px 0;
+}
+
+header .title .container-fluid p {
+    letter-spacing: 4px;
+}
+
+
+
+main .main {
+    /* height: 80vmin; */
+    margin-top: 5vh;
+}

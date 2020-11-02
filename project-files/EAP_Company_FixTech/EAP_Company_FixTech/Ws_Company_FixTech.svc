@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="EAP_Company_FixTech.Ws_Company_FixTech" CodeBehind="Ws_Company_FixTech.svc.cs" %>

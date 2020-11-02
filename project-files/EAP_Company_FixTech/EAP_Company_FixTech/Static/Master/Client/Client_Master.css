@@ -1,0 +1,51 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+
+
+
+
+/* Create variable */
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-back: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.87);
+}
+
+* {
+    font-family: var(--Rubik);
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #ff512f;
+}
+
+
+footer h4 {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+footer p {
+    color: var(--light-gray);
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer .btn:hover {
+    color: #ff512f;
+
+}
